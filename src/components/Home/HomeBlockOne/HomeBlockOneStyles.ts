@@ -72,6 +72,10 @@ export const InlustrationWrapper = styled.div`
   background-size: contain;
   background-position-x: right;
 
+  @media(max-height: 700px) {
+    display: none;
+  }
+
   .img-wrapper {
     position: relative;
     height: 70rem;
